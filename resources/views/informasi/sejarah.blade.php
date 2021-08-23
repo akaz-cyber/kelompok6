@@ -113,7 +113,7 @@
           <div class="col-lg-4">
 
           
-          @include('layouts.recentpost')
+          @include('layouts.service.recentpost')
 
              
             </div>
