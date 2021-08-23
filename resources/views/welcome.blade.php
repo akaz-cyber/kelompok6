@@ -77,7 +77,7 @@
                 </div>
               </div>
               <div class="member-info">
-                <h4>P.yusuf S.DS</h4>
+                <h4>yusuf maulana aripin</h4>
                 <span>SERJANA DESAIN</span>
                 <p>pak yusuf adalah seorang guru dari smk mahaputra di kelas 2 nanti. juga dia sebagai guru dan bembimbing eskul multimedia
               </p>
