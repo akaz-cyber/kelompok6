@@ -71,10 +71,9 @@
             <div class="member">
               <div class="member-img">
                 <img src="assets/img/team/pakyusuf.jpeg" class="img-fluid" alt="">
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
+                <div class="social">    
+                  <a href="https://www.instagram.com/yusufmaulanaaripin/"><i class="bi bi-instagram"></i></a>
+                  <a href="https://www.youtube.com/channel/UCkoVZv0cwx9n-6XIeggxtwQ"><i class="bi bi-youtube"></i></a>
                 </div>
               </div>
               <div class="member-info">
