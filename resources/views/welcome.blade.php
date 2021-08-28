@@ -95,7 +95,7 @@
       <div class="container" data-aos="fade-up">
 
         <header class="section-header">
-          <h2>INFO</h2>
+          <h2>informasi</h2>
           <p>Recent Posts</p>
         </header>
 

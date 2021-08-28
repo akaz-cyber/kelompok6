@@ -20,6 +20,10 @@ Route::get('user.info','Blogcontroller@info');
 Route::get('user.about','Blogcontroller@About'); 
 Route::get('user.portfolio','Blogcontroller@portfolio'); 
 Route::get('user.contact','Blogcontroller@contact'); 
+Route::post('user.contact','Blogcontroller@kirimemail'); 
+
 Route::get('informasi.sejarah','Blogcontroller@sejarah'); 
 Route::get('informasi.pengertian','Blogcontroller@pengertian'); 
 Route::get('informasi.jenis','Blogcontroller@jenis'); 
+Route::get('auth.login','Blogcontroller@login'); 
+Route::get('user.jadwal','Blogcontroller@jadwal'); 

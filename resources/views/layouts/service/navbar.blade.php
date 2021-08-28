@@ -11,9 +11,10 @@
           <li><a class="nav-link scrollto" href="{{url ('/')}}">Home</a></li>
           <li><a class="nav-link scrollto" href="{{url ('user.about')}}">About</a></li>
           <li><a class="nav-link scrollto" href="{{url ('user.portfolio')}}">Portfolio</a></li>
+          <li><a class="nav-link scrollto" href="{{url ('user.jadwal')}}">JADWAL</a></li>
           <li><a href="{{url ('user.info')}}">INFO</a></li>
           <li><a class="nav-link scrollto" href="{{url ('user.contact')}}">Contact</a></li>
-          <li><a href="#about">LOGIN</a></li>
+          <li><a href="{{url ('auth.login')}}">LOGIN</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav>

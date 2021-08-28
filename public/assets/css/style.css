@@ -1586,6 +1586,13 @@ section {
   margin-bottom: 0;
 }
 
+.contact .box-1{
+  background: #fafbff;
+  padding: 30px;
+  height: 100%;
+   
+
+}
 .contact .php-email-form {
   background: #fafbff;
   padding: 30px;

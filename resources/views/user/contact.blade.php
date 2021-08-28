@@ -54,14 +54,10 @@
     </div>
 
     <div class="col-lg-6">
-      <form action="forms/contact.php" method="post" class="php-email-form">
+      <form action="{{url('user.contact')}}" method="post" class="box-1">
         <div class="row gy-4">
-
-          <div class="col-md-6">
-            <input type="text" name="name" class="form-control" placeholder="Your Name" required>
-          </div>
-
-          <div class="col-md-6 ">
+        {{csrf_field()}}
+          <div class="col-md-20 ">
             <input type="email" class="form-control" name="email" placeholder="Your Email" required>
           </div>
 
@@ -73,12 +69,7 @@
             <textarea class="form-control" name="message" rows="6" placeholder="Message" required></textarea>
           </div>
 
-          <div class="col-md-12 text-center">
-            <div class="loading">Loading</div>
-            <div class="error-message"></div>
-            <div class="sent-message">Your message has been sent. Thank you!</div>
-
-            <button type="submit">Send Message</button>
+            <button  class="btn btn-primary" type="submit">Send Message</button>
           </div>
 
         </div>
