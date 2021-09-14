@@ -30,11 +30,11 @@ class Blogcontroller extends Controller
             'isimessage'=>$request->message,
 
         );
-        Mail::send('email.emailku',$hasil,function($massage) use($hasil){
+        Mail::send('email/emailku',$hasil,function($massage) use($hasil){
         $massage->from($hasil['email']);
         $massage->to('ajrisonic62@gmail.com');
         $massage->subject($hasil['subject']);
-                        
+
         });
         return redirect()->back();
     }
@@ -53,4 +53,5 @@ class Blogcontroller extends Controller
     public function jadwal(){
         return view ('user.jadwal');
     }
+
 }

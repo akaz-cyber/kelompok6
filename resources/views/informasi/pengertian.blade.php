@@ -18,7 +18,7 @@
             <article class="entry">
 
               <div class="entry-img">
-                <img src="assets/img/blog/blog-2.jpeg" alt="" class="img-fluid">
+                <img src="{{URL::to('assets/img/blog/blog-2.jpeg')}}" alt="" class="img-fluid">
               </div>
 
               <h2 class="entry-title">
@@ -41,7 +41,7 @@
                  <p>
                 Tetapi pengakuan foto sebagai karya seni sempat mendapat beberapa pertentangan. Hal ini tak terlepas dari kenyataan bahwa fotografi menggunakan mesin.
                 Selain itu, pertentangan terjadi karena banyak yang berpendapat bahwa fotografi tidak membutuhkan kreativitas atau imajinasi karena
-                subjek fotografi adalah “siap pakai” dan tidak memerlukan manipulasi atau kontrol oleh fotografer. 
+                subjek fotografi adalah “siap pakai” dan tidak memerlukan manipulasi atau kontrol oleh fotografer.
                  </p>
                  <p>
                 Namun beberapa alasan di bawah ini meruntuhkan pendapat itu.
@@ -53,7 +53,7 @@
                 akan dimasukkan dan apa yang harus diabaikan dari tempat kejadian.
                 </p>
                <p>
-               Mereka memilih jarak dari mana untuk mengambil gambar dan sudut mana yang tepat, yang tentunya paling sesuai dengan tujuan mereka. 
+               Mereka memilih jarak dari mana untuk mengambil gambar dan sudut mana yang tepat, yang tentunya paling sesuai dengan tujuan mereka.
                </p>
                <p>
               Mereka juga sabar menunggu sampai mendapatkan cahaya yang tepat atau mungkin mengambil keputusan
@@ -68,6 +68,8 @@
                </p>
                <img src="assets/img/blog/fotografer.jpg" class="img-fluid" alt="">
             </article><!-- End blog entry -->
+            @include('layouts.service.article')
+
          <div class="blog-pagination">
          <div class="justify-content-center">
          </div>
@@ -77,10 +79,10 @@
 
           <div class="col-lg-4">
 
-           
+
           @include('layouts.service.recentpost')
 
-             
+
             </div>
             <!-- End sidebar -->
 
@@ -92,7 +94,7 @@
 
   </main><!-- End #main -->
 
-  
+
 </body>
 
 </html>

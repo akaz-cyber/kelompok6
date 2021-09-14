@@ -33,7 +33,7 @@
               <i>pada tahun 2019 didirikan eskul photografi dan ternyata ada suatu hari
                 pada hari senin itu, jadwal eskul kosong dan di sanalah di adakan eskul fotografi.
                 jadi kenapa ada eskul fotografi karena linier dengan mata pelajaran produktif nya,multimedia
-                di semester satu kelas 11 itu, ada desain grafis percakapan dan di semester dua itu ada materi 
+                di semester satu kelas 11 itu, ada desain grafis percakapan dan di semester dua itu ada materi
                 tentang fotografi. dan juga eskul photografi itu buat apa,selain untuk melatih ke tangkasan siswa
                 mereka juga akan di bawa ke tempat-tempat yang berhubungan dengan fotografi. Contoh nya tempat sewa kamera,
                 disitulah para siswa dapat melihat berbagai fariasi bentuk kamera dan tidak mungkin sekolah mengadakan pameran
@@ -53,41 +53,63 @@
 
     </section><!-- End About Section -->
 
-  
+
     <!-- ======= Team Section ======= -->
-    
+
     <section id="team" class="team">
-    
+
       <div class="container" data-aos="fade-up">
-     
+
         <header class="section-header">
-       
+
           <p>PEMBINA EKSTRAKULIKULER</p>
         </header>
-      
+
         <div class="row gy-4">
-        <center>
+
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
             <div class="member">
               <div class="member-img">
                 <img src="assets/img/team/pakyusuf.jpeg" class="img-fluid" alt="">
-                <div class="social">    
-                  <a href="https://www.instagram.com/yusufmaulanaaripin/"><i class="bi bi-instagram"></i></a>
-                  <a href="https://www.youtube.com/channel/UCkoVZv0cwx9n-6XIeggxtwQ"><i class="bi bi-youtube"></i></a>
+                <div class="social">
+                  <a href="https://www.instagram.com/yusufmaulanaaripin/" target="_blank"><i class="bi bi-instagram"></i></a>
+                  <a href="https://www.youtube.com/channel/UCkoVZv0cwx9n-6XIeggxtwQ" target="_blank"><i class="bi bi-youtube"></i></a>
+                  <a href="https://www.facebook.com/YusufMaulanaAripin" target="_blank"><i class="bi bi-facebook"></i></a>
                 </div>
               </div>
               <div class="member-info">
-                <h4>yusuf maulana aripin</h4>
+                <h4>yusuf Maulana Aripin S.Ds</h4>
                 <span>SERJANA DESAIN</span>
-                <p>pak yusuf adalah seorang guru dari smk mahaputra di kelas 2 nanti. juga dia sebagai guru dan bembimbing eskul multimedia
+                <p>Seorang guru dari SMK Mahaputra serta sebagai pembimbing eskul FOTOGRAFI
               </p>
               </div>
             </div>
           </div>
-          </center>       
-        
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+            <div class="member">
+              <div class="member-img">
+                <img src="assets/img/team/team-2.jpg" class="img-fluid" alt="">
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>B.ROSLAILA</h4>
+                <span>Product Manager</span>
+                <p>Quo esse repellendus quia id. Est eum et accusantium pariatur fugit nihil minima suscipit corporis. Voluptate sed quas reiciendis animi neque sapiente.</p>
+              </div>
+            </div>
+          </div>
+
+
+
+
     </section><!-- End Team Section -->
-   
+
 
     <!-- ======= Recent Blog Posts Section ======= -->
     <section id="recent-blog-posts" class="recent-blog-posts">
@@ -95,8 +117,7 @@
       <div class="container" data-aos="fade-up">
 
         <header class="section-header">
-          <h2>informasi</h2>
-          <p>Recent Posts</p>
+          <p>NEW INFORMATION</p>
         </header>
 
         <div class="row">
@@ -106,7 +127,7 @@
               <div class="post-img"><img src="{{ asset('assets/img/blog/blog-1.jpg' ) }} " class="img-fluid" alt=""></div>
               <span class="post-date">RABU,18 AGUSTUS 2021</span>
               <h3 class="post-title">SEJARAH FOTOGRAFI DARI MASA LAMPAU</h3>
-              <a href="{{url ('informasi.sejarah')}}" class="readmore stretched-link mt-auto"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+              <a href="{{url ('informasi/sejarah')}}" class="readmore stretched-link mt-auto"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
             </div>
           </div>
 
@@ -115,7 +136,7 @@
               <div class="post-img"><img src="{{ asset('assets/img/blog/blog-2.jpeg' ) }} " class="img-fluid" alt=""></div>
               <span class="post-date">MINGGU,29 FEBUARI 2021</span>
               <h3 class="post-title">PENGERTIAN FOTOGRAFI</h3>
-              <a href="{{url ('informasi.pengertian')}}" class="readmore stretched-link mt-auto"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+              <a href="{{url ('informasi/pengertian')}}" class="readmore stretched-link mt-auto"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
             </div>
           </div>
 
@@ -124,7 +145,7 @@
               <div class="post-img"><img src="{{ asset('assets/img/blog/blog-3.jpg' ) }} " class="img-fluid" alt=""></div>
               <span class="post-date">SENIN,18 DESEMBER 2021</span>
               <h3 class="post-title">JENIS-JENIS PHOTOGRAFI</h3>
-              <a href="{{url ('informasi.jenis')}}" class="readmore stretched-link mt-auto"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+              <a href="{{url ('informasi/jenis')}}" class="readmore stretched-link mt-auto"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
             </div>
           </div>
 

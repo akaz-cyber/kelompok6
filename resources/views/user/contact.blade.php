@@ -1,6 +1,6 @@
 @extends('layouts.master')
 <head>
-  <title>Halaman About</title>
+  <title>Contact</title>
 </head>
 
 @section('content')
@@ -12,8 +12,8 @@
 <div class="container" data-aos="fade-up">
 
   <header class="section-header">
-    <h2>AYO MARI KITA BERGABUNG KE ESKUL FHOTOGRAFI!!</h2>
-    <p>Contact Us</p>
+    <h2>CONTACT US</h2>
+    <p>FORMULIR PENDAFTARAN</p>
   </header>
 
   <div class="row gy-4">
@@ -54,15 +54,15 @@
     </div>
 
     <div class="col-lg-6">
-      <form action="{{url('user.contact')}}" method="post" class="box-1">
-        <div class="row gy-4">
+      <form action="{{url('user/contact')}}" method="post" class="box-1">
+      <div class="row gy-4">
         {{csrf_field()}}
           <div class="col-md-20 ">
             <input type="email" class="form-control" name="email" placeholder="Your Email" required>
           </div>
 
           <div class="col-md-12">
-            <input type="text" class="form-control" name="subject" placeholder="Subject" required>
+            <input type="text" class="form-control" name="subject" placeholder="Yout Name and class" required>
           </div>
 
           <div class="col-md-12">

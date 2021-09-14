@@ -1,6 +1,6 @@
 @extends('layouts.master')
 <head>
-  <title>Halaman Blog</title>
+  <title>Informasi</title>
 </head>
 @section('content')
 <body>
@@ -18,11 +18,11 @@
             <article class="entry">
 
               <div class="entry-img">
-                <img src="assets/img/blog/blog-1.jpg" alt="" class="img-fluid">
+                <img src="{{URL::to('assets/img/blog/blog-1.jpg')}}" alt="" class="img-fluid">
               </div>
 
               <h2 class="entry-title">
-                <a href="{{url ('informasi.sejarah')}}">SEJARAH FOTOGRAFI DARI MASA LAMPAU</a>
+                <a href="{{url ('informasi/sejarah')}}">SEJARAH FOTOGRAFI DARI MASA LAMPAU</a>
               </h2>
 
               <div class="entry-meta">
@@ -39,20 +39,20 @@
                 sebuah terobosan teknologi. Saat itu, rekaman dua dimensi seperti yang dilihat mata sudah bisa dibuat permanen....
                 </p>
                 <div class="read-more">
-                  <a href="{{url ('informasi.sejarah')}}">Read More</a>
+                  <a href="{{url ('informasi/sejarah')}}">Read More</a>
                 </div>
               </div>
 
             </article><!-- End blog entry -->
-          
+
             <article class="entry">
             <div id="blog2" class="blog2">
               <div class="entry-img">
-                <img src="assets/img/blog/blog-2.jpeg" alt="" class="img-fluid">
+                <img src="{{URL::to('assets/img/blog/blog-2.jpeg')}}" alt="" class="img-fluid">
               </div>
 
               <h2 class="entry-title">
-                <a href="{{url('informasi.pengertian')}}">PENGERTIAN FOTOGRAFI</a>
+                <a href="{{url('informasi/pengertian')}}">PENGERTIAN FOTOGRAFI</a>
               </h2>
 
               <div class="entry-meta">
@@ -64,25 +64,25 @@
 
               <div class="entry-content">
                 <p>
-                Kini fotografi secara luas telah diakui sebagai seni, ditampilkan di museum, dihargai oleh kolektor, dibahas oleh para kritikus, dan 
-                dipelajari dalam kursus sejarah seni. Tetapi pengakuan foto sebagai karya seni sempat mendapat beberapa pertentangan. Hal ini tak terlepas 
+                Kini fotografi secara luas telah diakui sebagai seni, ditampilkan di museum, dihargai oleh kolektor, dibahas oleh para kritikus, dan
+                dipelajari dalam kursus sejarah seni. Tetapi pengakuan foto sebagai karya seni sempat mendapat beberapa pertentangan. Hal ini tak terlepas
                 dari kenyataan bahwa fotografi menggunakan mesin.
                   </p>
                 <div class="read-more">
-                  <a href="{{url ('informasi.pengertian')}}">Read More</a>
+                  <a href="{{url ('informasi/pengertian')}}">Read More</a>
                 </div>
               </div>
               </div>
             </article><!-- End blog entry -->
             <div id="blog3" class="blog3">
             <article class="entry">
-           
+
               <div class="entry-img">
-                <img src="assets/img/blog/blog-3.jpg" alt="" class="img-fluid">
+                <img src="{{URL::to('assets/img/blog/blog-3.jpg')}}" alt="" class="img-fluid">
               </div>
 
               <h2 class="entry-title">
-                <a href="{{url('informasi.jenis')}}">JENIS-JENIS FOTOGRAFI</a>
+                <a href="{{url('informasi/jenis')}}">JENIS-JENIS FOTOGRAFI</a>
               </h2>
 
               <div class="entry-meta">
@@ -94,12 +94,12 @@
 
               <div class="entry-content">
                 <p>
-                Bagi kamu yang ingin belajar mendalami bidang fotografi, untuk menjadi fotografer profesional tentunya kamu perlu tahu ilmu 
+                Bagi kamu yang ingin belajar mendalami bidang fotografi, untuk menjadi fotografer profesional tentunya kamu perlu tahu ilmu
                 dasar fotografi seperti jenis-jenis fotografi apa yang ingin benar-benar kamu tekuni. Jenis-jenis fotografi ini bisa membantu
                 kamu mengenal keahlian kamu berada di gaya mana. Berikut jenis-jenis fotografi
                   </p>
                 <div class="read-more">
-                  <a href="{{url ('informasi.jenis')}}">Read More</a>
+                  <a href="{{url ('informasi/jenis')}}">Read More</a>
                 </div>
               </div>
               </div>
@@ -112,7 +112,8 @@
               </ul>
             </div>
 
-          </div><!-- End blog entries list -->
+          </div>
+          <!-- End blog entries list -->
 
           <div class="col-lg-4">
 
@@ -128,7 +129,7 @@
 
   </main><!-- End #main -->
 
-  
+
 </body>
 
 </html>

@@ -18,7 +18,7 @@
             <article class="entry">
 
               <div class="entry-img">
-                <img src="assets/img/blog/blog-3.jpg" alt="" class="img-fluid">
+                <img src="{{URL::to('assets/img/blog/blog-3.jpg')}}" alt="" class="img-fluid">
               </div>
 
               <h2 class="entry-title">
@@ -42,19 +42,19 @@
                 1. Food Photography
                 </h3>
                 <p>
-                Jenis-jenis fotografi makanan ini dalam pengertian sederhana adalah teknik memotret makanan 
+                Jenis-jenis fotografi makanan ini dalam pengertian sederhana adalah teknik memotret makanan
                 menjadi lebih menggoda. Dalam industri kuliner, seperti produsen makanan, rumah produksi, periklanan,
-                hotel, kafe, dan lainnya, fotografi makanan mutlak dibutuhkan. Karena itu pelaku food photography semakin dicari karena biasanya digunakan 
+                hotel, kafe, dan lainnya, fotografi makanan mutlak dibutuhkan. Karena itu pelaku food photography semakin dicari karena biasanya digunakan
                 untuk membuat kemasan suatu produk atau iklan. Hanya saja dibutuhkan keterampilan
                 dan peralatan yang berkualitas baik untuk menangkap esensi dari makanan yang dijadikan sebagai objek foto.
-              
+
                 </p>
-              
+
                 <h3>
                 2. Landscape Photography
                 </h3>
                 <p>
-                jenis-jenis fotografi ini sangat cocok untuk kamu yang suka traveling dan mengabadikan pemandangan indah di sekitar kamu. Landscape Photography menunjukan ruang dalam dunia yaitu pemandangan alam, kadang-kadang luasa dan tak berujung,tapi kadang mikroskopis. 
+                jenis-jenis fotografi ini sangat cocok untuk kamu yang suka traveling dan mengabadikan pemandangan indah di sekitar kamu. Landscape Photography menunjukan ruang dalam dunia yaitu pemandangan alam, kadang-kadang luasa dan tak berujung,tapi kadang mikroskopis.
                 Foto landscape biasanya menangkap kehadiran alam tetapi juga dapat fokus pada buatan manusia. Tipe foto ini biasanya digunakan pada kalender, kartu pos, dan memorabilia.
                 </p>
                 <h3>
@@ -95,6 +95,8 @@
                </p>
                <img src="assets/img/blog/jenisgambar.jpg" class="img-fluid" alt="">
             </article><!-- End blog entry -->
+            @include('layouts.service.article')
+
          <div class="blog-pagination">
          <div class="justify-content-center">
          </div>
@@ -103,12 +105,12 @@
           </div><!-- End blog entries list -->
 
           <div class="col-lg-4">
-        
+
           @include('layouts.service.recentpost')
-        
 
 
-             
+
+
             </div>
             <!-- End sidebar -->
 
@@ -120,7 +122,7 @@
 
   </main><!-- End #main -->
 
-  
+
 </body>
 
 </html>
