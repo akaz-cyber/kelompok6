@@ -66,7 +66,7 @@
         </header>
 
         <div class="row gy-4">
-
+        <center>
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
             <div class="member">
               <div class="member-img">
@@ -80,30 +80,12 @@
               <div class="member-info">
                 <h4>yusuf Maulana Aripin S.Ds</h4>
                 <span>SERJANA DESAIN</span>
-                <p>Seorang guru dari SMK Mahaputra serta sebagai pembimbing eskul FOTOGRAFI
+                <p>Seorang guru dari SMK Mahaputra serta sebagai pembimbing Eskul Fotografi
               </p>
               </div>
             </div>
           </div>
-
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
-            <div class="member">
-              <div class="member-img">
-                <img src="assets/img/team/team-2.jpg" class="img-fluid" alt="">
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-              <div class="member-info">
-                <h4>B.ROSLAILA</h4>
-                <span>Product Manager</span>
-                <p>Quo esse repellendus quia id. Est eum et accusantium pariatur fugit nihil minima suscipit corporis. Voluptate sed quas reiciendis animi neque sapiente.</p>
-              </div>
-            </div>
-          </div>
+        </center>
 
 
 

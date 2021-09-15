@@ -14,10 +14,10 @@ class CreateJadwalTable extends Migration
     public function up()
     {
         Schema::create('jadwal', function (Blueprint $table) {
-            $table->increments('id');
+            $table->id();
             $table->string('waktu');
             $table->string('hari');
-            $table->string('tanggal');
+            $table->string('tanggal_bulan');
             $table->string('kegiatan');
             $table->timestamps();
         });

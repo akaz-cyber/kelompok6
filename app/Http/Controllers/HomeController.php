@@ -23,6 +23,7 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('home');
+        $data_jadwal = \App\Jadwal::all();
+        return view('dassbord',compact('data_jadwal'));
     }
 }

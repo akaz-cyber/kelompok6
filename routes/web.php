@@ -31,4 +31,4 @@ Route::get('user/jadwal','Blogcontroller@jadwal');
 
 'Auth'::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/dassbord', 'HomeController@index')->name('home');

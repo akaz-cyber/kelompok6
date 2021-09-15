@@ -28,21 +28,22 @@
 
                             </tr>
                         </thead>
+                        @foreach ($data_jadwal as $jadwal )
+
+
                         <tbody>
                             <tr>
-                                <td class="align-middle">08:00</td>
-                                <td>
-                                    <span class="bg-sky padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom font-size16 xs-font-size13">kumpul</span>
-                                    <div class="margin-10px-top font-size14">8:00-10:00</div>
-                                </td>
-                                <td>
-
-                                </td>
-
+                                <td class="align-middle">{{$jadwal->waktu}}</td>
+                                <td class="align-middle">{{$jadwal->hari}}</td>
+                                <td class="align-middle">{{$jadwal->tanggal_bulan}}</td>
+                                <td class="align-middle">{{$jadwal->kegiatan}}</td>
+                            </tr>
                      </tbody>
+                     @endforeach
                     </table>
                 </div>
             </div>
 
 
 @endsection
+

@@ -51,7 +51,8 @@ class Blogcontroller extends Controller
         return view ('auth.login');
     }
     public function jadwal(){
-        return view ('user.jadwal');
+       $data_jadwal = \App\Jadwal::all();
+        return view ('user.jadwal',compact('data_jadwal'));
     }
 
 }

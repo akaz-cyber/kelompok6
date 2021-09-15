@@ -9,7 +9,7 @@
 <div class="container" data-aos="fade-up">
   <header class="section-header">
     <h2>Portfolio</h2>
-    <p>HASIL GAMBAR</p>
+    <p>Dokumentasi</p>
   </header>
 
   <div class="row gy-4 portfolio-container" data-aos="fade-up" data-aos-delay="200">
