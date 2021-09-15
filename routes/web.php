@@ -33,3 +33,4 @@ Route::get('user/jadwal','Blogcontroller@jadwal');
 
 Route::get('/dassbord', 'HomeController@index')->name('home');
 Route::post('admin/create','Admincontroller@create');
+Route::get('admin/{id}/edit','Admincontroller@edit');

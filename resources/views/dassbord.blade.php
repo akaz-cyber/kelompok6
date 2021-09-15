@@ -50,13 +50,13 @@
                      </div>
                    </div>
                  </div>
-                 <center>
                       <table class="table table-hover">
                         <tr>
                            <th class="text-uppercase">waktu</th>
                            <th class="text-uppercase">Hari</th>
                            <th class="text-uppercase">tanggal</th>
                            <th class="text-uppercase">kegiatan</th>
+                           <th class="text-uppercase">Aksi</th>
                        </tr>
                            @foreach ($data_jadwal as $jadwal)
                        <tr>
@@ -64,11 +64,11 @@
                            <td class="align-middle">{{$jadwal->hari}}</td>
                            <td class="align-middle">{{$jadwal->tanggal_bulan}}</td>
                            <td class="align-middle">{{$jadwal->kegiatan}}</td>
+                           <td><a href="admin/{{$jadwal->id}}/edit" class="btn btn-outline-info btn-sm">Edit</a></td>
                        </tr>
                            @endforeach
 
                       </table>
-                    </center>
                        </div>
                    </div>
 
