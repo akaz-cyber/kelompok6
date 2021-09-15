@@ -1,6 +1,13 @@
+.
 @extends('layouts.main')
+@if (session('suksess'))
+<div class="alert alert-success" role="alert">
+    {{session('suksess')}}
+  </div>
+@endif
 @section('content')
 <body>
+
       <!-- Button trigger modal -->
         <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#exampleModal">
         Tambah jadwal
@@ -16,34 +23,34 @@
                          </button>
                        </div>
                        <div class="modal-body">
-                        <form>
+                        <form action="admin/create" method="POST">
+                           {{csrf_field()}}
                             <div class="form-group">
-                              <label for="exampleInputEmail1">waktu</label>
-                              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="masukan waktu">
+                              <label for="input_starttime">waktu</label>
+                              <input  name ="waktu" type="time" class="form-control timepicker" id="input_starttime"  placeholder="masukan waktu">
                             </div>
                             <div class="form-group">
                                 <label for="exampleInputEmail1">hari</label>
-                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="masukan hari">
+                                <input name ="hari" type="Text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="masukan hari">
                               </div>
                               <div class="form-group">
                                 <label for="exampleInputEmail1">tanggal dan bulan</label>
-                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="masukan tanggal dan bulan">
+                                <input name ="tanggal_bulan" type="date" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="masukan tanggal dan bulan">
                               </div>
                               <div class="form-group">
                                 <label for="exampleInputEmail1">kegiatan</label>
-                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="masukan kegiatan">
+                                <input name ="kegiatan" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="masukan kegiatan">
                               </div>
-                            <button type="submit" class="btn btn-primary">Submit</button>
-                          </form>
                        </div>
                        <div class="modal-footer">
                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                         <button type="button" class="btn btn-primary">Save changes</button>
+                         <button type="submit" class="btn btn-primary">Submit</button>
+                        </form>
                        </div>
                      </div>
                    </div>
                  </div>
-
+                 <center>
                       <table class="table table-hover">
                         <tr>
                            <th class="text-uppercase">waktu</th>
@@ -61,6 +68,7 @@
                            @endforeach
 
                       </table>
+                    </center>
                        </div>
                    </div>
 

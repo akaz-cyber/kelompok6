@@ -8,7 +8,6 @@
 <br>
 <br>
   <header class="section-header">
-    <h2>Jadwal</h2>
     <p>Jadwal ekstrakulikuler</p>
   </header>
 <div class="container">

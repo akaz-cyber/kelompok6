@@ -32,3 +32,4 @@ Route::get('user/jadwal','Blogcontroller@jadwal');
 'Auth'::routes();
 
 Route::get('/dassbord', 'HomeController@index')->name('home');
+Route::post('admin/create','Admincontroller@create');
