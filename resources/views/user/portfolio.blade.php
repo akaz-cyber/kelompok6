@@ -1,6 +1,6 @@
 @extends('layouts.master')
 <head>
-  <title>Portfolio </title>
+  <title>Gallery </title>
 </head>
 @section('content')
  <!-- ======= Portfolio Section ======= -->
@@ -8,7 +8,6 @@
 
 <div class="container" data-aos="fade-up">
   <header class="section-header">
-    <h2>Portfolio</h2>
     <p>Dokumentasi</p>
   </header>
 

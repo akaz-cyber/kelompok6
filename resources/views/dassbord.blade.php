@@ -1,5 +1,4 @@
-.
-@extends('layouts.main')
+.@extends('layouts.main')
 @if (session('suksess'))
 <div class="alert alert-success" role="alert">
     {{session('suksess')}}
@@ -64,7 +63,10 @@
                            <td class="align-middle">{{$jadwal->hari}}</td>
                            <td class="align-middle">{{$jadwal->tanggal_bulan}}</td>
                            <td class="align-middle">{{$jadwal->kegiatan}}</td>
-                           <td><a href="admin/{{$jadwal->id}}/edit" class="btn btn-outline-info btn-sm">Edit</a></td>
+                           <td>
+                               <a href="admin/{{$jadwal->id}}/edit" class="btn btn-outline-info btn-sm">Edit</a>
+                               <a href="admin/{{$jadwal->id}}/delete" class="btn btn-outline-danger btn-sm"onclick="return confirm('ingin menghapus jadwal ini?')">Delete</a>
+                           </td>
                        </tr>
                            @endforeach
 

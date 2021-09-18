@@ -18,7 +18,7 @@ Route::get('/', function () {
 });
 Route::get('user/info','Blogcontroller@info');
 Route::get('user/about','Blogcontroller@About');
-Route::get('user/portfolio','Blogcontroller@portfolio');
+Route::get('user/galery','Blogcontroller@portfolio');
 Route::get('user/contact','Blogcontroller@contact');
 Route::post('user/contact','Blogcontroller@kirimemail');
 
@@ -29,8 +29,14 @@ Route::get('auth/login','Blogcontroller@login');
 Route::get('user/jadwal','Blogcontroller@jadwal');
 
 
+
 'Auth'::routes();
 
 Route::get('/dassbord', 'HomeController@index')->name('home');
 Route::post('admin/create','Admincontroller@create');
+
 Route::get('admin/{id}/edit','Admincontroller@edit');
+Route::post('admin/{id}/update','Admincontroller@update');
+
+Route::get('admin/{id}/delete','Admincontroller@delete');
+Route::get('admin/informasi','Admincontroller@info');

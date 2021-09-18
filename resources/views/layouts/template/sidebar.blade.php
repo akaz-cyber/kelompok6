@@ -3,10 +3,10 @@
         <div class="menu_section">
           <h3>General</h3>
           <ul class="nav side-menu">
-            <li><a><i class="fa fa-table"></i> Tables <span class="fa fa-chevron-down"></span></a>
+            <li><a><i class="fa fa-table"></i> Edit Table <span class="fa fa-chevron-down"></span></a>
               <ul class="nav child_menu">
                 <li><a href="{{url('dassbord')}}">Jadwal </a></li>
-                <li><a href="tables_dynamic.html">Table Dynamic</a></li>
+                <li><a href="{{url('admin/informasi')}}">informasi</a></li>
               </ul>
         </div>
 

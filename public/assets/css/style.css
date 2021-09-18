@@ -199,7 +199,7 @@ section {
 # Navigation Menu
 --------------------------------------------------------------*/
 /**
-* Desktop Navigation 
+* Desktop Navigation
 */
 .navbar {
   padding: 0;
@@ -317,7 +317,7 @@ section {
 }
 
 /**
-* Mobile Navigation 
+* Mobile Navigation
 */
 .mobile-nav-toggle {
   color: #012970;
@@ -1564,6 +1564,7 @@ section {
   color: #444444;
   background: #fafbff;
   padding: 30px;
+
 }
 
 .contact .info-box i {
@@ -1590,7 +1591,7 @@ section {
   background: #fafbff;
   padding: 30px;
   height: 100%;
-   
+
 
 }
 .contact .php-email-form {

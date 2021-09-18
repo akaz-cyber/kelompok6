@@ -55,4 +55,5 @@ class Blogcontroller extends Controller
         return view ('user.jadwal',compact('data_jadwal'));
     }
 
+
 }
