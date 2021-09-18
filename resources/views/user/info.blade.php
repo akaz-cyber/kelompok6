@@ -1,6 +1,6 @@
 @extends('layouts.master')
 <head>
-  <title>Informasi</title>
+  <title>Artikel</title>
 </head>
 @section('content')
 <body>

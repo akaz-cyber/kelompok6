@@ -7,7 +7,7 @@
 @section('content')
 <body>
     <i><h1>Edit jadwal</h1></i>
-         <form action="admin/{{$jadwal->id}}/update" method="POST">
+         <form action="{{ url('admin/'.$jadwal->id.'/update') }}" method="POST">
          {{csrf_field()}}
         <div class="form-group">
         <label for="input_starttime">waktu</label>

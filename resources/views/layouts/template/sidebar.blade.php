@@ -6,7 +6,7 @@
             <li><a><i class="fa fa-table"></i> Edit Table <span class="fa fa-chevron-down"></span></a>
               <ul class="nav child_menu">
                 <li><a href="{{url('dassbord')}}">Jadwal </a></li>
-                <li><a href="{{url('admin/informasi')}}">informasi</a></li>
+                <li><a href="{{url('admin/informasi')}}">Artikel</a></li>
               </ul>
         </div>
 
