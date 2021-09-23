@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Admincontroller;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -39,4 +40,13 @@ Route::get('admin/{id}/edit','Admincontroller@edit');
 Route::post('admin/{id}/update','Admincontroller@update');
 
 Route::get('admin/{id}/delete','Admincontroller@delete');
-Route::get('admin/informasi','Admincontroller@info');
+
+Route::get('subadmin/informasi','Admincontroller@info');
+Route::post('subadmin/informasi','Adminartikelcontroller@tambah')->name('tambahinformasi');
+
+Route::get('admingaleri/galeri','Admingalericontroller@galeri')->name('galeri');
+Route::post('admingaleri/create','Admingalericontroller@create')->name('create');
+
+
+
+

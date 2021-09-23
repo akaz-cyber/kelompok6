@@ -11,7 +11,8 @@ use Illuminate\Support\Facades\Mail;
 class Blogcontroller extends Controller
 {
      public function info(){
-         return view('user.info');
+        $info = \App\informasi::all();
+        return view('user.info',compact('info'));
      }
 
      public function About(){
@@ -22,21 +23,6 @@ class Blogcontroller extends Controller
     }
     public function contact(){
         return view ('user.contact');
-    }
-    public function kirimemail(Request $request){
-        $hasil = array(
-            'email'=> $request->email,
-            'subject'=>$request->subject,
-            'isimessage'=>$request->message,
-
-        );
-        Mail::send('email/emailku',$hasil,function($massage) use($hasil){
-        $massage->from($hasil['email']);
-        $massage->to('ajrisonic62@gmail.com');
-        $massage->subject($hasil['subject']);
-
-        });
-        return redirect()->back();
     }
     public function sejarah(){
         return view ('informasi.sejarah');
@@ -54,6 +40,22 @@ class Blogcontroller extends Controller
        $data_jadwal = \App\Jadwal::all();
         return view ('user.jadwal',compact('data_jadwal'));
     }
+
+    // public function kirimemail(Request $request){
+    //     $hasil = array(
+    //         'email'=> $request->email,
+    //         'subject'=>$request->subject,
+    //         'isimessage'=>$request->message,
+
+    //     );
+    //     Mail::send('email/emailku',$hasil,function($massage) use($hasil){
+    //     $massage->from($hasil['email']);
+    //     $massage->to('ajrisonic62@gmail.com');
+    //     $massage->subject($hasil['subject']);
+
+    //     });
+    //     return redirect()->back();
+    // }
 
 
 }

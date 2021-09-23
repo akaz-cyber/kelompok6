@@ -9,10 +9,9 @@
           <div class="col-lg-2 col-6 footer-links">
             <h4>COMPANY</h4>
             <ul>
-              <li><i class="bi bi-chevron-right"></i> <a href="{{url ('user/info')}}">INFO</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="{{url ('user/about')}}">About us</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="{{url ('user/info')}}">Info</a></li>
               <li><i class="bi bi-chevron-right"></i> <a href="{{url ('user/contact')}}">Contact</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="{{url ('user/portfolio')}}">Portfolio</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="{{url ('user/portfolio')}}">Artikel</a></li>
               <li><i class="bi bi-chevron-right"></i> <a href="{{url ('user/jadwal')}}">Jadwal</a></li>
             </ul>
           </div>

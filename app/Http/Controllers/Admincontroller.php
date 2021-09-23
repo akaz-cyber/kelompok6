@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-
+use App\informasi;
 class Admincontroller extends Controller
 {
 public function create(Request $request){
@@ -27,6 +27,8 @@ public function delete($id){
     return redirect('/dassbord') -> with('suksess','jadwal berhasil di hapus');
 }
 public function info(){
-    return view('admin.informasi');
+    $info = \App\informasi::all();
+    return view('subadmin.informasi',compact('info'));
 }
+
 }

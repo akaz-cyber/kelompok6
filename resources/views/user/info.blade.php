@@ -16,35 +16,33 @@
           <div class="col-lg-8 entries">
 
             <article class="entry">
+                <div class="entry-img">
+                    <img src="{{URL::to('assets/img/blog/blog-1.jpg')}}" alt="" class="img-fluid">
+                  </div>
 
-              <div class="entry-img">
-                <img src="{{URL::to('assets/img/blog/blog-1.jpg')}}" alt="" class="img-fluid">
-              </div>
+                  <h2 class="entry-title">
+                    <a href="{{url ('informasi/sejarah')}}">Sejarah Fotografi</a>
+                  </h2>
 
-              <h2 class="entry-title">
-                <a href="{{url ('informasi/sejarah')}}">SEJARAH FOTOGRAFI DARI MASA LAMPAU</a>
-              </h2>
+                  <div class="entry-meta">
+                    <ul>
+                      <li class="d-flex align-items-center"><i class="bi bi-person"></i> <a href="blog-single.html">UNKNOWN</a></li>
+                      <li class="d-flex align-items-center"><i class="bi bi-clock"></i> <a href="blog-single.html"><time datetime="2020-01-01">agust 18, 2021</time></a></li>
+                    </ul>
+                  </div>
 
-              <div class="entry-meta">
-                <ul>
-                  <li class="d-flex align-items-center"><i class="bi bi-person"></i> <a href="blog-single.html">UNKNOWN</a></li>
-                  <li class="d-flex align-items-center"><i class="bi bi-clock"></i> <a href="blog-single.html"><time datetime="2020-01-01">agust 18, 2021</time></a></li>
-                </ul>
-              </div>
+                  <div class="entry-content">
+                    <p>
+                    Sejarah Fotografi dimulai pada abad ke-19. Tahun 1839 merupakan tahun awal
+                    kelahiran fotografi. Pada saat itu, di Perancis dinyatakan secara resmi bahwa fotografi adalah
+                    sebuah terobosan teknologi. Saat itu, rekaman dua dimensi seperti yang dilihat mata sudah bisa dibuat permanen....
+                    </p>
+                    <div class="read-more">
+                      <a href="{{url ('informasi/sejarah')}}">Read More</a>
+                    </div>
+                  </div>
 
-              <div class="entry-content">
-                <p>
-                Sejarah Fotografi dimulai pada abad ke-19. Tahun 1839 merupakan tahun awal
-                kelahiran fotografi. Pada saat itu, di Perancis dinyatakan secara resmi bahwa fotografi adalah
-                sebuah terobosan teknologi. Saat itu, rekaman dua dimensi seperti yang dilihat mata sudah bisa dibuat permanen....
-                </p>
-                <div class="read-more">
-                  <a href="{{url ('informasi/sejarah')}}">Read More</a>
-                </div>
-              </div>
-
-            </article><!-- End blog entry -->
-
+                </article><!-- End blog entry -->
             <article class="entry">
             <div id="blog2" class="blog2">
               <div class="entry-img">
@@ -134,3 +132,4 @@
 
 </html>
 @endsection
+

@@ -6,9 +6,8 @@
 @endif
 @section('content')
 <body>
-
       <!-- Button trigger modal -->
-        <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#exampleModal">
+        <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#exampleModal ">
         Tambah jadwal
         </button>
                  <!-- Modal -->
@@ -71,8 +70,9 @@
                            @endforeach
 
                       </table>
-                       </div>
-                   </div>
+
+
+
 
         </div>
 
