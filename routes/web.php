@@ -46,6 +46,9 @@ Route::post('subadmin/informasi','Adminartikelcontroller@tambah')->name('tambahi
 
 Route::get('admingaleri/galeri','Admingalericontroller@galeri')->name('galeri');
 Route::post('admingaleri/create','Admingalericontroller@create')->name('create');
+Route::get('/editgaleri/{id}','Admingalericontroller@edit')->name('edit');
+Route::post('/updategaleri/{id}','Admingalericontroller@update')->name('update');
+Route::get('/deletegaleri/{id}','Admingalericontroller@delete')->name('delete');
 
 
 

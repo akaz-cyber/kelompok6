@@ -32,10 +32,11 @@
                               <input name ="keterangan" type="Text" class="form-control" id="keterangan"  placeholder="keterangan">
                             </div>
                             </div>
-                       </div>
-                       <div class="modal-footer">
-                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                         <button type="submit" class="btn btn-primary">Submit</button>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                <button type="submit" class="btn btn-primary">Submit</button>
+                            </div>
+
                         </form>
                        </div>
                      </div>
@@ -52,8 +53,8 @@
                            <td><a href="{{asset('galery/'.$uploadgambar->gambar)}}" target="_blank" rel="noopener noreferrer"> lihat gambar</a></td>
                            <td class="align-middle">{{$uploadgambar->keterangan}}</td>
                            <td>
-                               <a href="#" class="btn btn-outline-info btn-sm">Edit</a>
-                               <a href="#" class="btn btn-outline-danger btn-sm"onclick="return confirm('ingin menghapus jadwal ini?')">Delete</a>
+                               <a href="{{url('editgaleri',$uploadgambar->id)}}" class="btn btn-outline-info btn-sm">Edit</a>
+                               <a href="{{url('deletegaleri',$uploadgambar->id)}}" class="btn btn-outline-danger btn-sm"onclick="return confirm('ingin menghapus jadwal ini?')">Delete</a>
                            </td>
                        </tr>
                            @endforeach
