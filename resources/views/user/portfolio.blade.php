@@ -12,20 +12,24 @@
   </header>
 
   <div class="row gy-4 portfolio-container" data-aos="fade-up" data-aos-delay="200">
+ @foreach ( $galery as $uploadgambar )
+ <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+    <div class="portfolio-wrap">
+        <img src="{{asset('galery/'.$uploadgambar->gambar)}}" class="img-fluid"  alt="">
+      {{-- <img src="{{ asset('assets/img/portfolio/hasilfoto1.jpeg' ) }} " class="img-fluid" alt=""> --}}
+      <div class="portfolio-info">
+        <div class="portfolio-links">
 
-    <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-      <div class="portfolio-wrap">
-        <img src="{{ asset('assets/img/portfolio/hasilfoto1.jpeg' ) }} " class="img-fluid" alt="">
-        <div class="portfolio-info">
-          <div class="portfolio-links">
-            <a href="{{ asset('assets/img/portfolio/hasilfoto1.jpeg' ) }} " data-gallery="portfolioGallery"class="portfokio-lightbox" title="hasil foto1"><i class="bi bi-plus"></i></a>
+          <a href="{{asset('galery/'.$uploadgambar->gambar)}}" data-gallery="portfolioGallery"class="portfokio-lightbox" title="{{$uploadgambar->keterangan}}"><i class="bi bi-plus"></i></a>
 
-          </div>
         </div>
       </div>
     </div>
+  </div>
+ @endforeach
 
-    <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+
+    {{-- <div class="col-lg-4 col-md-6 portfolio-item filter-web">
       <div class="portfolio-wrap">
         <img src="{{ asset('assets/img/portfolio/hasilfoto2.jpeg' ) }} " class="img-fluid" alt="">
         <div class="portfolio-info">
@@ -127,7 +131,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> --}}
 
   </div>
 

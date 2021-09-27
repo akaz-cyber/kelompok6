@@ -36,6 +36,7 @@
 			</div>
 		</div>
 	</section>
+    @include('layouts.service.footer')
 @endsection
 
 {{-- @extends('layouts.master')
