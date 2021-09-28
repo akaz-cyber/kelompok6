@@ -10,7 +10,7 @@
          <form action="{{url('updategaleri',$edit->id)}}" method="POST" enctype="multipart/form-data">
          {{csrf_field()}}
         <div class="form-group">
-        <img src="{{asset('galery/'.$edit->gambar)}}" height="400"  alt="">
+        <img src="{{asset('galery/'.$edit->gambar)}}" class="img-fluid"  alt="">
         </div>
         <div class="form-group btn btn-sm">
             <input  name ="gambar" type="file"  id="gambar"  >

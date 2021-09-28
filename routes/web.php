@@ -41,8 +41,14 @@ Route::post('admin/{id}/update','Admincontroller@update');
 
 Route::get('admin/{id}/delete','Admincontroller@delete');
 
-Route::get('subadmin/informasi','Admincontroller@info');
-Route::post('subadmin/informasi','Adminartikelcontroller@tambah')->name('tambahinformasi');
+Route::get('subadmin/informasi','Adminartikelcontroller@info');
+Route::post('subadmin/create','Adminartikelcontroller@create')->name('tambah');
+Route::get('/editinformasi/{id}','Adminartikelcontroller@edit')->name('edit');
+Route::post('/updateinformasi/{id}','Adminartikelcontroller@update')->name('update');
+Route::get('/deleteinformasi/{id}','Adminartikelcontroller@delete')->name('delete');
+
+
+
 
 Route::get('admingaleri/galeri','Admingalericontroller@galeri')->name('galeri');
 Route::post('admingaleri/create','Admingalericontroller@create')->name('create');

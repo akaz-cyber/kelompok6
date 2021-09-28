@@ -15,7 +15,7 @@
                    <div class="modal-dialog">
                      <div class="modal-content">
                        <div class="modal-header">
-                         <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                         <h5 class="modal-title" id="exampleModalLabel">Tambah jadwal</h5>
                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                            <span aria-hidden="true">&times;</span>
                          </button>
@@ -27,12 +27,8 @@
                               <label for="input_starttime">waktu</label>
                               <input  name ="waktu" type="time" class="form-control timepicker" id="input_starttime"  placeholder="masukan waktu">
                             </div>
-                            <div class="form-group">
-                                <label for="exampleInputEmail1">hari</label>
-                                <input name ="hari" type="Text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="masukan hari">
-                              </div>
                               <div class="form-group">
-                                <label for="exampleInputEmail1">tanggal dan bulan</label>
+                                <label for="exampleInputEmail1">Hari dan tanggal</label>
                                 <input name ="tanggal_bulan" type="date" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="masukan tanggal dan bulan">
                               </div>
                               <div class="form-group">
@@ -51,7 +47,6 @@
                       <table class="table table-hover">
                         <tr>
                            <th class="text-uppercase">waktu</th>
-                           <th class="text-uppercase">Hari</th>
                            <th class="text-uppercase">tanggal</th>
                            <th class="text-uppercase">kegiatan</th>
                            <th class="text-uppercase">Aksi</th>
@@ -59,7 +54,6 @@
                            @foreach ($data_jadwal as $jadwal)
                        <tr>
                            <td class="align-middle">{{$jadwal->waktu}}</td>
-                           <td class="align-middle">{{$jadwal->hari}}</td>
                            <td class="align-middle">{{$jadwal->tanggal_bulan}}</td>
                            <td class="align-middle">{{$jadwal->kegiatan}}</td>
                            <td>

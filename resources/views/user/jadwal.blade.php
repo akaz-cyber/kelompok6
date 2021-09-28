@@ -13,7 +13,6 @@
 						    <tr>
                                 <th class="text-uppercase">waktu
                                 </th>
-                                <th class="text-uppercase">Hari</th>
                                 <th class="text-uppercase">tanggal</th>
                                 <th class="text-uppercase">kegiatan</th>
 
@@ -24,7 +23,6 @@
 						  <tbody>
 						    <tr>
                                 <td>{{$jadwal->waktu}}</td>
-                                <td>{{$jadwal->hari}}</td>
                                 <td>{{$jadwal->tanggal_bulan}}</td>
                                 <td>{{$jadwal->kegiatan}}</td>
 						    </tr>

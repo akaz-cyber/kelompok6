@@ -14,10 +14,6 @@
         <input  name ="waktu" type="time" class="form-control timepicker" id="input_starttime"  placeholder="masukan waktu" value="{{$jadwal->waktu }}">
         </div>
         <div class="form-group">
-            <label for="exampleInputEmail1">hari</label>
-            <input name ="hari" type="Text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="masukan hari" value="{{$jadwal->hari}}">
-        </div>
-        <div class="form-group">
             <label for="exampleInputEmail1">tanggal dan bulan</label>
             <input name ="tanggal_bulan" type="date" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="masukan tanggal dan bulan" value="{{$jadwal->tanggal_bulan}}">
         </div>

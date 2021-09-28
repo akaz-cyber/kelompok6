@@ -26,9 +26,6 @@ public function delete($id){
     $jadwal->delete($jadwal);
     return redirect('/dassbord') -> with('suksess','jadwal berhasil di hapus');
 }
-public function info(){
-    $info = \App\informasi::all();
-    return view('subadmin.informasi',compact('info'));
-}
+
 
 }

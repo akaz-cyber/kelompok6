@@ -11,7 +11,7 @@
             <ul>
               <li><i class="bi bi-chevron-right"></i> <a href="{{url ('user/info')}}">Info</a></li>
               <li><i class="bi bi-chevron-right"></i> <a href="{{url ('user/contact')}}">Contact</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="{{url ('user/portfolio')}}">Artikel</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="{{url ('user/galery')}}">Galery</a></li>
               <li><i class="bi bi-chevron-right"></i> <a href="{{url ('user/jadwal')}}">Jadwal</a></li>
             </ul>
           </div>

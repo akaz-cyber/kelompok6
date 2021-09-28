@@ -15,11 +15,13 @@ class CreateInformasiTable extends Migration
     {
         Schema::create('informasi', function (Blueprint $table) {
             $table->id();
-            $table->string('galery');
+            $table->string('gambar');
             $table->string('judul');
             $table->string('tanggal');
-            $table->longText('content');
-            $table->string('user_id');
+            $table->string('nama');
+            $table->string('shortartikel',120);
+            $table->text('content');
+
             $table->timestamps();
         });
     }

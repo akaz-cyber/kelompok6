@@ -11,8 +11,7 @@ use Illuminate\Support\Facades\Mail;
 class Blogcontroller extends Controller
 {
      public function info(){
-        $info = \App\informasi::all();
-        return view('user.info',compact('info'));
+        return view('user.info');
      }
 
      public function About(){
