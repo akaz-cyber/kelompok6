@@ -17,7 +17,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('user/info','Blogcontroller@info');
+Route::get('user/video','Blogcontroller@video');
 Route::get('user/about','Blogcontroller@About');
 Route::get('user/galery','Blogcontroller@portfolio');
 Route::get('user/contact','Blogcontroller@contact');

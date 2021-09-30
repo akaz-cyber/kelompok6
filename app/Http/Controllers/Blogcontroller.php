@@ -10,8 +10,8 @@ use Illuminate\Support\Facades\Mail;
 
 class Blogcontroller extends Controller
 {
-     public function info(){
-        return view('user.info');
+     public function video(){
+        return view('user.video');
      }
 
      public function About(){

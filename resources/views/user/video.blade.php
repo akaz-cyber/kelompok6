@@ -10,11 +10,8 @@
     <!-- ======= Blog Section ======= -->
     <section id="blog" class="blog">
       <div class="container" data-aos="fade-up">
-
         <div class="row">
-
           <div class="col-lg-11 entries">
-
             <article class="entry">
                 <div class="entry-img">
                  <div class="img-fluid"> <iframe width="1200" height="400" src="https://www.youtube.com/embed/aIphC7JZbao" title="YouTube video player"
