@@ -1,4 +1,4 @@
-@extends('layouts.master')
+{{-- @extends('layouts.master')
 <head>
   <title>SEJARAH</title>
 </head>
@@ -133,4 +133,4 @@
 </body>
 
 </html>
-@endsection
+@endsection --}}

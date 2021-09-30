@@ -18,8 +18,8 @@ class Blogcontroller extends Controller
         return view ('user.about');
     }
     public function portfolio(){
-        $galery =\App\Uploadgambar::all();
-        return view ('user.portfolio',compact('galery'));
+        // $galery =\App\Uploadgambar::all();
+        return view ('user.portfolio');
     }
     public function contact(){
         return view ('user.contact');

@@ -13,62 +13,55 @@
 
         <div class="row">
 
-          <div class="col-lg-8 entries">
+          <div class="col-lg-11 entries">
 
             <article class="entry">
                 <div class="entry-img">
-                    <img src="{{URL::to('assets/img/blog/blog-1.jpg')}}" alt="" class="img-fluid">
+                 <div class="img-fluid"> <iframe width="1200" height="400" src="https://www.youtube.com/embed/aIphC7JZbao" title="YouTube video player"
+                        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                         allowfullscreen></iframe></div>
                   </div>
 
                   <h2 class="entry-title">
-                    <a href="{{url ('informasi/sejarah')}}">Sejarah Fotografi</a>
+                    <a href="https://youtu.be/aIphC7JZbao"  target="_blank"> STREET PHOTPGRAFY DENGAN KAMERA NIKON D5100 DAN LENSA KIT 18-55</a>
                   </h2>
-
                   <div class="entry-meta">
                     <ul>
-                      <li class="d-flex align-items-center"><i class="bi bi-person"></i> <a href="blog-single.html">UNKNOWN</a></li>
-                      <li class="d-flex align-items-center"><i class="bi bi-clock"></i> <a href="blog-single.html"><time datetime="2020-01-01">agust 18, 2021</time></a></li>
+                      <li class="d-flex align-items-center"><i class="bi bi-clock"></i> <a href="blog-single.html"><time datetime="2020-01-01">4 Jul 2021</time></a></li>
                     </ul>
                   </div>
-
                   <div class="entry-content">
                     <p>
-                    Sejarah Fotografi dimulai pada abad ke-19. Tahun 1839 merupakan tahun awal
-                    kelahiran fotografi. Pada saat itu, di Perancis dinyatakan secara resmi bahwa fotografi adalah
-                    sebuah terobosan teknologi. Saat itu, rekaman dua dimensi seperti yang dilihat mata sudah bisa dibuat permanen....
+            Sebagai seorang fotografer yang menggunakan kamera
+            Canon dari awal belajar fotografi, tentu saya kurang familiar
+            menggunakan kamera merk lain, karena meskipun dasarnya sama, tapi settingan dan tombolnya pasti berbeda, di video kali ini
+            seorang teman menantang saya untuk menggunakan kamera Nikon miliknya dalam Street Photography, dan inilah hasilnya, semoga bermanfaat.
                     </p>
-                    <div class="read-more">
-                      <a href="{{url ('informasi/sejarah')}}">Read More</a>
-                    </div>
-                  </div>
-
                 </article><!-- End blog entry -->
             <article class="entry">
             <div id="blog2" class="blog2">
               <div class="entry-img">
-                <img src="{{URL::to('assets/img/blog/blog-2.jpeg')}}" alt="" class="img-fluid">
+                <div class="img-fluid"><iframe width="1200" height="400"  src="https://www.youtube.com/embed/xSnKjT3yNxE"
+                    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media;
+                     gyroscope; picture-in-picture" allowfullscreen></iframe></div>
               </div>
 
               <h2 class="entry-title">
-                <a href="{{url('informasi/pengertian')}}">PENGERTIAN FOTOGRAFI</a>
+                <a href="https://youtu.be/xSnKjT3yNxE" target="_blank">10 Tips Memotret Model untuk Pemula</a>
               </h2>
 
               <div class="entry-meta">
                 <ul>
-                  <li class="d-flex align-items-center"><i class="bi bi-person"></i> <a href="blog-single.html">UNKNOWN</a></li>
-                  <li class="d-flex align-items-center"><i class="bi bi-clock"></i> <a href="blog-single.html"><time datetime="2020-01-01">des 3, 2021</time></a></li>
+                  <li class="d-flex align-items-center"><i class="bi bi-clock"></i> <a href="blog-single.html"><time datetime="2020-01-01">21 Okt 2016</time></a></li>
                 </ul>
               </div>
 
               <div class="entry-content">
                 <p>
-                Kini fotografi secara luas telah diakui sebagai seni, ditampilkan di museum, dihargai oleh kolektor, dibahas oleh para kritikus, dan
-                dipelajari dalam kursus sejarah seni. Tetapi pengakuan foto sebagai karya seni sempat mendapat beberapa pertentangan. Hal ini tak terlepas
-                dari kenyataan bahwa fotografi menggunakan mesin.
+                    Bagi seorang photographer amatir maupun professional, sudah pasti pernah memotret model perempuan,
+                     baik itu untuk keperluan membuat portofolio atau komersil. Di video kali ini
+                     saya akan share 10 tips memotret model untuk pemula, semoga bermanfaat.
                   </p>
-                <div class="read-more">
-                  <a href="{{url ('informasi/pengertian')}}">Read More</a>
-                </div>
               </div>
               </div>
             </article><!-- End blog entry -->
@@ -76,46 +69,88 @@
             <article class="entry">
 
               <div class="entry-img">
-                <img src="{{URL::to('assets/img/blog/blog-3.jpg')}}" alt="" class="img-fluid">
+                <div class="img-fluid"><iframe width="1200" height="400"  src="https://www.youtube.com/embed/gt0YFpHkUKw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
               </div>
 
               <h2 class="entry-title">
-                <a href="{{url('informasi/jenis')}}">JENIS-JENIS FOTOGRAFI</a>
+                <a href="https://youtu.be/gt0YFpHkUKw" target="_blank">5 Kesalahan Fotografer Pemula</a>
               </h2>
 
               <div class="entry-meta">
                 <ul>
-                  <li class="d-flex align-items-center"><i class="bi bi-person"></i> <a href="blog-single.html">UNKNOWN</a></li>
                   <li class="d-flex align-items-center"><i class="bi bi-clock"></i> <a href="blog-single.html"><time datetime="2020-01-01">jan 4, 2021</time></a></li>
                 </ul>
               </div>
 
               <div class="entry-content">
                 <p>
-                Bagi kamu yang ingin belajar mendalami bidang fotografi, untuk menjadi fotografer profesional tentunya kamu perlu tahu ilmu
-                dasar fotografi seperti jenis-jenis fotografi apa yang ingin benar-benar kamu tekuni. Jenis-jenis fotografi ini bisa membantu
-                kamu mengenal keahlian kamu berada di gaya mana. Berikut jenis-jenis fotografi
+                    Setiap fotografer pasti pernah menjadi seorang pemula dan sering melakukan kesalahan-kesalahan yang biasanya dilakukan oleh seorang fotografer pemula.
+                    Di video kali ini saya akan membahas 5 Kesalahan yang sering dilakukan oleh Fotografer Pemula, agar kalian yang masih baru belajar fotografi, bisa menghindari kesalahan seperti ini, semoga bermanfaat.
                   </p>
-                <div class="read-more">
-                  <a href="{{url ('informasi/jenis')}}">Read More</a>
-                </div>
+
               </div>
               </div>
             </article><!-- End blog entry -->
-            <div class="blog-pagination">
-              <ul class="justify-content-center">
-                <li><a href="#blog">1</a></li>
-                <li><a href="#blog2">2</a></li>
-                <li><a href="#blog3">3</a></li>
-              </ul>
-            </div>
 
+            <div id="blog3" class="blog4">
+                <article class="entry">
+
+                  <div class="entry-img">
+                   <div class="img-fluid"> <iframe width="1200" height="400"  src="https://www.youtube.com/embed/e3n5ESFWqUo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                  </div>
+
+                  <h2 class="entry-title">
+                    <a href="https://youtu.be/e3n5ESFWqUo" target="_blank">9 POSE ANDALAN FOTOGRAFER SAAT MEMOTRET</a>
+                  </h2>
+
+                  <div class="entry-meta">
+                    <ul>
+                      <li class="d-flex align-items-center"><i class="bi bi-clock"></i> <a href="blog-single.html"><time datetime="2020-01-01">11 Agu 2017</time></a></li>
+                    </ul>
+                  </div>
+
+                  <div class="entry-content">
+                    <p>
+                        Memotret itu bukan hal yang gampang, seorang fotografer diharuskan untuk menguasai teknik dan skill fotografi, tapi ada 1 hal lagi yang harus dikuasai oleh seorang fotografer, yaitu pose saat memotret.
+                        Di video kali ini saya akan membahas 9 Pose Andalan Fotografer Saat Memotret, , agar kalian yang masih baru belajar fotografi, bisa mempelajarinya, semoga bermanfaat.
+                      </p>
+
+                  </div>
+                  </div>
+                </article><!-- End blog entry -->
+
+
+                    <div id="blog3" class="blog4">
+                        <article class="entry">
+
+                          <div class="entry-img">
+                           <div class="img-fluid">   <iframe width="1200" height="400"  src="https://www.youtube.com/embed/XxQMQfyUYYY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                          </div>
+
+                          <h2 class="entry-title">
+                            <a href="https://youtu.be/XxQMQfyUYYY" target="_blank">5 SALAH KAPRAH TENTANG FOTOGRAFER PROFESIONAL</a>
+                          </h2>
+
+                          <div class="entry-meta">
+                            <ul>
+                              <li class="d-flex align-items-center"><i class="bi bi-clock"></i> <a href="blog-single.html"><time datetime="2020-01-01">24 Agu 2021</time></a></li>
+                            </ul>
+                          </div>
+
+                          <div class="entry-content">
+                            <p>
+                                Menjadi fotografer profesional kadang seringkali mendapatkan argumen atau pendapat yang kurang tepat dari masyarakat umum, di video kali ini saya akan membahas 5 Salah Kaprah tentang Fotografer Profesional, semoga bermanfaat.
+                              </p>
+
+                          </div>
+                          </div>
+                        </article><!-- End blog entry -->
           </div>
           <!-- End blog entries list -->
 
           <div class="col-lg-4">
-
-          @include('layouts.service.recentpost')
+{{--
+          @include('layouts.service.recentpost') --}}
             <!-- End sidebar -->
 
           </div><!-- End blog sidebar -->

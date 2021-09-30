@@ -7,7 +7,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-6 d-flex flex-column justify-content-center">
-          <h1 data-aos="fade-up">EKSTRAKULIKULER FOTOGRAFI SMK MAHAPUTRA CERDAS UTAMA</h1>
+          <h1 data-aos="fade-up">EKSTRAKURIKULER FOTOGRAFI SMKS MAHAPUTRA CERDAS UTAMA</h1>
           <div data-aos="fade-up" data-aos-delay="600">
           </div>
         </div>
@@ -53,8 +53,11 @@
 
     </section><!-- End About Section -->
 
+
+
       <!-- ======= Values Section ======= -->
     <section id="values" class="values">
+
     <div class="container" data-aos="fade-up">
 
       <header class="section-header">
@@ -91,54 +94,152 @@
       </div>
 
     </div>
-    </section><!-- End Values Section -->
+    </section> <!-- End Values Section -->
 
-      <!-- ======= Team Section ======= -->
+        <!-- ======= Team Section ======= -->
 
-      <section id="team" class="team">
+        <section id="team" class="team">
 
+            <div class="container" data-aos="fade-up">
+
+              <header class="section-header">
+
+                <p>Pembina Estrakulikuler</p>
+              </header>
+
+                <div class="row gy-4">
+                <center>
+                    <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+                    <div class="member">
+                      <div class="member-img">
+                        <img src="{{URL::to('assets/img/team/pakyusuf.jpeg')}}" class="img-fluid" alt="">
+                        <div class="social">
+                          <a href="https://www.instagram.com/yusufmaulanaaripin/" target="_blank"><i class="bi bi-instagram"></i></a>
+                          <a href="https://www.youtube.com/channel/UCkoVZv0cwx9n-6XIeggxtwQ" target="_blank"><i class="bi bi-youtube"></i></a>
+                          <a href="https://www.facebook.com/YusufMaulanaAripin" target="_blank"><i class="bi bi-facebook"></i></a>
+                        </div>
+                      </div>
+                      <div class="member-info">
+                        <h4>yusuf Maulana Aripin </h4>
+                        <span>sarjana desain grafis</span>
+                        <p>Seorang guru dari SMK Mahaputra serta sebagai pembimbing Eskul Fotografi
+                      </p>
+                      </div>
+                    </div>
+                </center>
+                  </div>
+
+
+                </div>
+                 </div>
+
+
+
+
+
+
+
+          </section>
+          <!-- End Team Section -->
+
+
+    <!-- ======= F.A.Q Section ======= -->
+    <section id="faq" class="faq">
         <div class="container" data-aos="fade-up">
 
           <header class="section-header">
-
-            <p>Pembina Estrakulikuler</p>
+            <h2>F.A.Q</h2>
+            <p>Pertanyaan tentang ESKUL PHOTOGRAFY</p>
           </header>
 
-            <div class="row gy-4">
-            <center>
-                <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
-                <div class="member">
-                  <div class="member-img">
-                    <img src="{{URL::to('assets/img/team/pakyusuf.jpeg')}}" class="img-fluid" alt="">
-                    <div class="social">
-                      <a href="https://www.instagram.com/yusufmaulanaaripin/" target="_blank"><i class="bi bi-instagram"></i></a>
-                      <a href="https://www.youtube.com/channel/UCkoVZv0cwx9n-6XIeggxtwQ" target="_blank"><i class="bi bi-youtube"></i></a>
-                      <a href="https://www.facebook.com/YusufMaulanaAripin" target="_blank"><i class="bi bi-facebook"></i></a>
+          <div class="row">
+            <div class="col-lg-6">
+              <!-- F.A.Q List 1-->
+              <div class="accordion accordion-flush" id="faqlist1">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-1">
+                        Hari apa ekskul fotografi di laksanakan?
+                    </button>
+                  </h2>
+                  <div id="faq-content-1" class="accordion-collapse collapse" data-bs-parent="#faqlist1">
+                    <div class="accordion-body">
+                        setiap hari senin  di adakannya eskul photografi
                     </div>
                   </div>
-                  <div class="member-info">
-                    <h4>yusuf Maulana Aripin </h4>
-                    <span>sarjana desain grafis</span>
-                    <p>Seorang guru dari SMK Mahaputra serta sebagai pembimbing Eskul Fotografi
-                  </p>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-2">
+                        jam berapa kegiatan ekskul photografi di laksanakan?
+                    </button>
+                  </h2>
+                  <div id="faq-content-2" class="accordion-collapse collapse" data-bs-parent="#faqlist1">
+                    <div class="accordion-body">
+                        sesudah pulang sekolah jam 15.00 sampai 16.00
+                    </div>
                   </div>
                 </div>
-            </center>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-3">
+                    apakah siswa jurusan RPL boleh untuk bergabung dengan eskul photografi?
+                    </button>
+                  </h2>
+                  <div id="faq-content-3" class="accordion-collapse collapse" data-bs-parent="#faqlist1">
+                    <div class="accordion-body">
+                      tentu boleh karena eskul ini terbuka untuk semua siswa dan juga banyak murid dari kelas RPL yang masuk ke eskul photografi
+                    </div>
+                  </div>
+                </div>
+
               </div>
-
-
             </div>
-             </div>
 
+            <div class="col-lg-6">
 
+              <!-- F.A.Q List 2-->
+              <div class="accordion accordion-flush" id="faqlist2">
 
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2-content-1">
+                      dimanakah tempat pelaksanaan ekskul fotografi
+                    </button>
+                  </h2>
+                  <div id="faq2-content-1" class="accordion-collapse collapse" data-bs-parent="#faqlist2">
+                    <div class="accordion-body">
+                        tempat kegiatan ekskul photografi di sekolah. karena selepas pulang sekolah pada hari senin selama satu jam
+                    </div>
+                  </div>
+                </div>
 
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2-content-2">
+                        apakah ada kegiatan kunjungan di ekskul fotografi?
+                    </button>
+                  </h2>
+                  <div id="faq2-content-2" class="accordion-collapse collapse" data-bs-parent="#faqlist2">
+                    <div class="accordion-body">
+                        biasanya kunjungan itu di laksanakan setiap 3 bulan sekali juga lebih
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
 
+          </div>
 
+        </div>
 
-      </section><!-- End Team Section -->
+      </section>
+       <!-- End F.A.Q Section -->
 
     <!-- ======= Recent Blog Posts Section ======= -->
+
     <section id="recent-blog-posts" class="recent-blog-posts">
 
       <div class="container" data-aos="fade-up">
@@ -146,40 +247,37 @@
         <header class="section-header">
           <p>NEW INFORMATION</p>
         </header>
-
         <div class="row">
-
-          <div class="col-lg-4">
+        <div class="col-lg-6">
             <div class="post-box">
-              <div class="post-img"><img src="{{ asset('assets/img/blog/blog-1.jpg' ) }} " class="img-fluid" alt=""></div>
-              <span class="post-date">RABU,18 AGUSTUS 2021</span>
-              <h3 class="post-title">SEJARAH FOTOGRAFI DARI MASA LAMPAU</h3>
-              <a href="{{url ('informasi/sejarah')}}" class="readmore stretched-link mt-auto"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
-            </div>
+             <div class="post-img"> <iframe width="650" height="315" src="https://www.youtube.com/embed/aIphC7JZbao" title="YouTube video player"
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                 allowfullscreen></iframe></div>
+                 <h3 class="post-title"> KAMERA NIKON D5100 DAN LENSA KIT 18-55</h3>
+
+             </div>
           </div>
 
-          <div class="col-lg-4">
+          <div class="col-lg-6">
             <div class="post-box">
-              <div class="post-img"><img src="{{ asset('assets/img/blog/blog-2.jpeg' ) }} " class="img-fluid" alt=""></div>
-              <span class="post-date">MINGGU,29 FEBUARI 2021</span>
-              <h3 class="post-title">PENGERTIAN FOTOGRAFI</h3>
-              <a href="{{url ('informasi/pengertian')}}" class="readmore stretched-link mt-auto"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+                <div class="post-img"><iframe width="650" height="315" src="https://www.youtube.com/embed/xSnKjT3yNxE"
+                title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media;
+                 gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+              <h3 class="post-title">10 Tips Memotret Model untuk Pemula</h3>
             </div>
+          </div>
           </div>
 
-          <div class="col-lg-4">
-            <div class="post-box">
-              <div class="post-img"><img src="{{ asset('assets/img/blog/blog-3.jpg' ) }} " class="img-fluid" alt=""></div>
-              <span class="post-date">SENIN,18 DESEMBER 2021</span>
-              <h3 class="post-title">JENIS-JENIS PHOTOGRAFI</h3>
-              <a href="{{url ('informasi/jenis')}}" class="readmore stretched-link mt-auto"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
-            </div>
-          </div>
+
+
+
 
         </div>
 
       </div>
 
-    </section><!-- End Recent Blog Posts Section -->
+    </section>
+    <!-- End Recent Blog Posts Section -->
+
 
 @endsection
