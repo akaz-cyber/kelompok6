@@ -1,6 +1,6 @@
 @extends('layouts.master')
 <head>
-  <title>Gallery </title>
+  <title>Photo </title>
 </head>
 @section('content')
 

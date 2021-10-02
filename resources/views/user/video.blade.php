@@ -1,6 +1,6 @@
 @extends('layouts.master')
 <head>
-  <title>Artikel</title>
+  <title>video</title>
 </head>
 @section('content')
 <body>
@@ -12,15 +12,15 @@
       <div class="container" data-aos="fade-up">
         <div class="row">
           <div class="col-lg-11 entries">
-            <article class="entry">
+            <article class="entry embed-resposive" >
                 <div class="entry-img">
-                 <div class="img-fluid"> <iframe width="1200" height="400" src="https://www.youtube.com/embed/aIphC7JZbao" title="YouTube video player"
+                 <div class="img-fluid youtube-container"> <iframe width="100%" height="100%" src="https://www.youtube.com/embed/aIphC7JZbao" title="YouTube video player"
                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                          allowfullscreen></iframe></div>
                   </div>
 
                   <h2 class="entry-title">
-                    <a href="https://youtu.be/aIphC7JZbao"  target="_blank"> STREET PHOTPGRAFY DENGAN KAMERA NIKON D5100 DAN LENSA KIT 18-55</a>
+                    <a href="https://youtu.be/aIphC7JZbao"  target="_blank"> STREET PHOTOPGRAFY DENGAN KAMERA NIKON D5100 DAN LENSA KIT 18-55</a>
                   </h2>
                   <div class="entry-meta">
                     <ul>
@@ -38,7 +38,7 @@
             <article class="entry">
             <div id="blog2" class="blog2">
               <div class="entry-img">
-                <div class="img-fluid"><iframe width="1200" height="400"  src="https://www.youtube.com/embed/xSnKjT3yNxE"
+                <div class="img-fluid  youtube-container"><iframe width="100%" height="100%"  src="https://www.youtube.com/embed/xSnKjT3yNxE"
                     title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media;
                      gyroscope; picture-in-picture" allowfullscreen></iframe></div>
               </div>
@@ -66,7 +66,7 @@
             <article class="entry">
 
               <div class="entry-img">
-                <div class="img-fluid"><iframe width="1200" height="400"  src="https://www.youtube.com/embed/gt0YFpHkUKw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                <div class="img-fluid  youtube-container"><iframe width="100%" height="100%"  src="https://www.youtube.com/embed/gt0YFpHkUKw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
               </div>
 
               <h2 class="entry-title">
@@ -93,7 +93,7 @@
                 <article class="entry">
 
                   <div class="entry-img">
-                   <div class="img-fluid"> <iframe width="1200" height="400"  src="https://www.youtube.com/embed/e3n5ESFWqUo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                   <div class="img-fluid  youtube-container"> <iframe width="100%" height="100%"  src="https://www.youtube.com/embed/e3n5ESFWqUo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
                   </div>
 
                   <h2 class="entry-title">
@@ -121,7 +121,7 @@
                         <article class="entry">
 
                           <div class="entry-img">
-                           <div class="img-fluid">   <iframe width="1200" height="400"  src="https://www.youtube.com/embed/XxQMQfyUYYY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                           <div class="img-fluid  youtube-container">  <iframe width="100%" height="100%"  src="https://www.youtube.com/embed/XxQMQfyUYYY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
                           </div>
 
                           <h2 class="entry-title">

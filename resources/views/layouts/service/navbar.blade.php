@@ -3,7 +3,7 @@
 
      <div class="logo d-flex align-items-center">
         <img src="{{asset('assets/img/logo.png' ) }}" alt="">
-        <span>ESKUL PHOTOGRAFY </span>
+        <span>ESKUL PHOTOGRAPHY </span>
         </div>
 
       <nav id="navbar" class="navbar">

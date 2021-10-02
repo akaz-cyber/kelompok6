@@ -11,8 +11,8 @@
             <ul>
               <li><i class="bi bi-chevron-right"></i> <a href="{{url ('user/info')}}">Info</a></li>
               <li><i class="bi bi-chevron-right"></i> <a href="{{url ('user/contact')}}">Contact</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="{{url ('user/galery')}}">Galery</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="{{url ('user/jadwal')}}">Jadwal</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="{{url ('user/galery')}}">Photo</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="{{url ('user/video')}}">Video</a></li>
             </ul>
           </div>
 
@@ -49,7 +49,7 @@
         <!-- You can delete the links only if you purchased the pro version. -->
         <!-- Licensing information: https://bootstrapmade.com/license/ -->
         <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/flexstart-bootstrap-startup-template/ -->
-        Designed by FlexStart
+        Designed by KELOMPOK 6
       </div>
     </div>
   </footer><!-- End Footer -->
