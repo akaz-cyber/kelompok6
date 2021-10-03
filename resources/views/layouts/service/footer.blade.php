@@ -9,7 +9,7 @@
           <div class="col-lg-2 col-6 footer-links">
             <h4>COMPANY</h4>
             <ul>
-              <li><i class="bi bi-chevron-right"></i> <a href="{{url ('user/info')}}">Info</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="{{url ('/')}}">Home</a></li>
               <li><i class="bi bi-chevron-right"></i> <a href="{{url ('user/contact')}}">Contact</a></li>
               <li><i class="bi bi-chevron-right"></i> <a href="{{url ('user/galery')}}">Photo</a></li>
               <li><i class="bi bi-chevron-right"></i> <a href="{{url ('user/video')}}">Video</a></li>

@@ -6,8 +6,8 @@
             <li><a><i class=""></i> General Update <span class="fa fa-chevron-down"></span></a>
               <ul class="nav child_menu">
                 <li><a href="{{url('dassbord')}}">Jadwal </a></li>
-                <li><a href="{{url('subadmin/informasi')}}">Artikel</a></li>
-                <li><a href="{{url('admingaleri/galeri')}}">galery</a></li>
+                <li><a href="{{url('subadmin/informasi')}}">portfolio</a></li>
+                <li><a href="{{url('admingaleri/galeri')}}">documentasi</a></li>
                 <li>
                 <a href="{{ route('logout') }}"onclick="event.preventDefault();document.getElementById('logout-form').submit();">
                 {{ __('Logout') }}

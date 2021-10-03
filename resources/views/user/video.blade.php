@@ -11,7 +11,7 @@
     <section id="blog" class="blog">
       <div class="container" data-aos="fade-up">
         <div class="row">
-          <div class="col-lg-11 entries">
+          <div class="col-lg-13 entries">
             <article class="entry embed-resposive" >
                 <div class="entry-img">
                  <div class="img-fluid youtube-container"> <iframe width="100%" height="100%" src="https://www.youtube.com/embed/aIphC7JZbao" title="YouTube video player"
